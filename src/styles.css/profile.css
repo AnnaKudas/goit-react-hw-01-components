@@ -1,0 +1,91 @@
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 355px;
+  height: 480px;
+}
+
+.card-header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card-avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-inner {
+  text-align: center;
+}
+
+.card-inner > div {
+  margin-bottom: 10px;
+}
+
+.color__gray {
+  color: #888;
+}
+
+.card-footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-footer-inner {
+  text-align: center;
+}
+
+.card-footer-box {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  margin: 10px 5px;
+  width: calc(33.33% - 10px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-footer-box:first-child {
+  margin-left: 0;
+}
+
+.card-footer-box:last-child {
+  margin-right: 0;
+}
+
+.card-footer-first {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-footer-last {
+  font-size: 14px;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.card-footer-divider {
+  margin: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.tag {
+  font-size: 18px;
+  color: #333;
+}
+
+.tag-prefix {
+  font-size: 18px;
+  color: #888;
+}
